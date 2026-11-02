@@ -1,7 +1,5 @@
-# Earthquake-Seismic-Energy-Research-Project-
-MatLab Model of Earthquake response for three cities
-
 # Earthquake Seismic Energy Risk Model (MATLAB)
+
 Independent research project analyzing how much seismic energy three cities receive from 13,584 recorded earthquakes: Peshawar (Pakistan), Taipei (Taiwan), and San Diego (California).
 
 ## What it does
@@ -14,11 +12,9 @@ Independent research project analyzing how much seismic energy three cities rece
 
 ## How to run
 Requires MATLAB with the Mapping Toolbox (for distance() and geoscatter).
-Place earthquakes.csv in the same folder and run the script.
+Place earthquakes.csv in the same folder as earthquake_risk.m and run the script.
 
 ## Data
-earthquakes.csv: USGS Earthquake Hazards Program, real-time CSV feed
-(https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php),
-downloaded [08/3/26]. 13,584 earthquakes.
+earthquakes.csv: USGS Earthquake Catalog (https://earthquake.usgs.gov/earthquakes/search/), magnitude 5.0+ earthquakes through December 31, 2009. Downloaded 08/03/26. 13,584 earthquakes.
 
 Author: Andrew Zukowsky
